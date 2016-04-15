@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+import Bolts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        application.statusBarStyle = UIStatusBarStyle.LightContent
+        UITabBar.appearance().translucent = false
+        UITabBar.appearance().barTintColor = UIColor.whiteColor()
+
+        // Initialize Parse.
+        let config = ParseClientConfiguration(block: {
+            (ParseMutableClientConfiguration) -> Void in
+
+            ParseMutableClientConfiguration.applicationId = "1001";
+            ParseMutableClientConfiguration.clientKey = "fsf$3434fkm!2vm309fm!";
+            ParseMutableClientConfiguration.server = "http://192.168.1.5:1337/parse";
+        });
+
+        Parse.initializeWithConfiguration(config);
+
         return true
     }
 

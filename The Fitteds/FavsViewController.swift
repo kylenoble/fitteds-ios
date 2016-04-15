@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FavsViewController.swift
 //  The Fitteds
 //
 //  Created by Kyle Noble on 3/5/16.
@@ -8,11 +8,16 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class FavsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        self.navigationController?.navigationBar.barTintColor = UIColor.blackColor()
+
+        let attributes = [NSFontAttributeName : UIFont(name: "Helmock Script", size: 22)!, NSForegroundColorAttributeName : UIColor.whiteColor()]
+        self.navigationController?.navigationBar.titleTextAttributes = attributes
     }
 
     override func didReceiveMemoryWarning() {

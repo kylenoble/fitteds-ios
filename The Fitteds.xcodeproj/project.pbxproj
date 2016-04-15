@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0B1732A0FE2618C49208A1 /* Pods_The_Fitteds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8926E6DC408BD47E810EDB9 /* Pods_The_Fitteds.framework */; };
+		F775C22E1C9EE9FD00725087 /* Hats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F775C22D1C9EE9FD00725087 /* Hats.swift */; };
+		F775C2321C9F2E2C00725087 /* Jaapokki-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F775C2311C9F2E2C00725087 /* Jaapokki-Regular.otf */; };
 		F7877D2F1C8B3E07006FD25F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7877D2E1C8B3E07006FD25F /* AppDelegate.swift */; };
-		F7877D311C8B3E07006FD25F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7877D301C8B3E07006FD25F /* FirstViewController.swift */; };
-		F7877D331C8B3E07006FD25F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7877D321C8B3E07006FD25F /* SecondViewController.swift */; };
+		F7877D331C8B3E07006FD25F /* FavsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7877D321C8B3E07006FD25F /* FavsViewController.swift */; };
 		F7877D361C8B3E07006FD25F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7877D341C8B3E07006FD25F /* Main.storyboard */; };
 		F7877D381C8B3E07006FD25F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7877D371C8B3E07006FD25F /* Assets.xcassets */; };
 		F7877D3B1C8B3E07006FD25F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7877D391C8B3E07006FD25F /* LaunchScreen.storyboard */; };
+		F7877D491C8B4BBB006FD25F /* HatListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7877D481C8B4BBB006FD25F /* HatListTableViewController.swift */; };
+		F7877D4D1C8B5DA5006FD25F /* HatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7877D4C1C8B5DA5006FD25F /* HatTableViewCell.swift */; };
+		F7CB8FA61C8B733B00C2B635 /* helmock-script.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7CB8FA51C8B733B00C2B635 /* helmock-script.ttf */; };
+		F7CB8FAA1C8B84B000C2B635 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB8FA91C8B84B000C2B635 /* ProfileViewController.swift */; };
+		F7CB8FAC1C8B84C200C2B635 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB8FAB1C8B84C200C2B635 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70A42CD04AFA5AF851679C34 /* Pods-The Fitteds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Fitteds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The Fitteds/Pods-The Fitteds.debug.xcconfig"; sourceTree = "<group>"; };
+		A8926E6DC408BD47E810EDB9 /* Pods_The_Fitteds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Fitteds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF765A928B9DE95059C8D83 /* Pods-The Fitteds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Fitteds.release.xcconfig"; path = "Pods/Target Support Files/Pods-The Fitteds/Pods-The Fitteds.release.xcconfig"; sourceTree = "<group>"; };
+		F775C22D1C9EE9FD00725087 /* Hats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hats.swift; sourceTree = "<group>"; };
+		F775C2311C9F2E2C00725087 /* Jaapokki-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jaapokki-Regular.otf"; sourceTree = "<group>"; };
 		F7877D2B1C8B3E07006FD25F /* The Fitteds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Fitteds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7877D2E1C8B3E07006FD25F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7877D301C8B3E07006FD25F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F7877D321C8B3E07006FD25F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F7877D321C8B3E07006FD25F /* FavsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavsViewController.swift; sourceTree = "<group>"; };
 		F7877D351C8B3E07006FD25F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7877D371C8B3E07006FD25F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7877D3A1C8B3E07006FD25F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7877D3C1C8B3E07006FD25F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7877D481C8B4BBB006FD25F /* HatListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HatListTableViewController.swift; sourceTree = "<group>"; };
+		F7877D4C1C8B5DA5006FD25F /* HatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HatTableViewCell.swift; sourceTree = "<group>"; };
+		F7CB8FA51C8B733B00C2B635 /* helmock-script.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "helmock-script.ttf"; sourceTree = "<group>"; };
+		F7CB8FA91C8B84B000C2B635 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../ProfileViewController.swift; sourceTree = "<group>"; };
+		F7CB8FAB1C8B84C200C2B635 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D0B1732A0FE2618C49208A1 /* Pods_The_Fitteds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31362E687A3894BB3463B9D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8926E6DC408BD47E810EDB9 /* Pods_The_Fitteds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACD960346FC39EE68C65F979 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70A42CD04AFA5AF851679C34 /* Pods-The Fitteds.debug.xcconfig */,
+				DBF765A928B9DE95059C8D83 /* Pods-The Fitteds.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F775C22C1C9EE89800725087 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F775C2311C9F2E2C00725087 /* Jaapokki-Regular.otf */,
+				F7CB8FA51C8B733B00C2B635 /* helmock-script.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		F7877D221C8B3E07006FD25F = {
 			isa = PBXGroup;
 			children = (
 				F7877D2D1C8B3E07006FD25F /* The Fitteds */,
 				F7877D2C1C8B3E07006FD25F /* Products */,
+				ACD960346FC39EE68C65F979 /* Pods */,
+				31362E687A3894BB3463B9D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +101,14 @@
 		F7877D2D1C8B3E07006FD25F /* The Fitteds */ = {
 			isa = PBXGroup;
 			children = (
+				F775C22C1C9EE89800725087 /* Fonts */,
+				F7CB8FA91C8B84B000C2B635 /* ProfileViewController.swift */,
+				F7CB8FAB1C8B84C200C2B635 /* SettingsViewController.swift */,
+				F7877D481C8B4BBB006FD25F /* HatListTableViewController.swift */,
+				F7877D4C1C8B5DA5006FD25F /* HatTableViewCell.swift */,
+				F775C22D1C9EE9FD00725087 /* Hats.swift */,
 				F7877D2E1C8B3E07006FD25F /* AppDelegate.swift */,
-				F7877D301C8B3E07006FD25F /* FirstViewController.swift */,
-				F7877D321C8B3E07006FD25F /* SecondViewController.swift */,
+				F7877D321C8B3E07006FD25F /* FavsViewController.swift */,
 				F7877D341C8B3E07006FD25F /* Main.storyboard */,
 				F7877D371C8B3E07006FD25F /* Assets.xcassets */,
 				F7877D391C8B3E07006FD25F /* LaunchScreen.storyboard */,
@@ -74,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7877D3F1C8B3E07006FD25F /* Build configuration list for PBXNativeTarget "The Fitteds" */;
 			buildPhases = (
+				889C33B36417ED1F0C61479B /* Check Pods Manifest.lock */,
 				F7877D271C8B3E07006FD25F /* Sources */,
 				F7877D281C8B3E07006FD25F /* Frameworks */,
 				F7877D291C8B3E07006FD25F /* Resources */,
+				BD8D40B0CDE685390009D7A9 /* Embed Pods Frameworks */,
+				2F1DD68850713673B6E1D79E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,20 +181,74 @@
 			files = (
 				F7877D3B1C8B3E07006FD25F /* LaunchScreen.storyboard in Resources */,
 				F7877D381C8B3E07006FD25F /* Assets.xcassets in Resources */,
+				F775C2321C9F2E2C00725087 /* Jaapokki-Regular.otf in Resources */,
 				F7877D361C8B3E07006FD25F /* Main.storyboard in Resources */,
+				F7CB8FA61C8B733B00C2B635 /* helmock-script.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F1DD68850713673B6E1D79E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The Fitteds/Pods-The Fitteds-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		889C33B36417ED1F0C61479B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8D40B0CDE685390009D7A9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The Fitteds/Pods-The Fitteds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F7877D271C8B3E07006FD25F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7877D331C8B3E07006FD25F /* SecondViewController.swift in Sources */,
+				F7CB8FAA1C8B84B000C2B635 /* ProfileViewController.swift in Sources */,
+				F7877D4D1C8B5DA5006FD25F /* HatTableViewCell.swift in Sources */,
+				F7CB8FAC1C8B84C200C2B635 /* SettingsViewController.swift in Sources */,
+				F7877D331C8B3E07006FD25F /* FavsViewController.swift in Sources */,
+				F775C22E1C9EE9FD00725087 /* Hats.swift in Sources */,
 				F7877D2F1C8B3E07006FD25F /* AppDelegate.swift in Sources */,
-				F7877D311C8B3E07006FD25F /* FirstViewController.swift in Sources */,
+				F7877D491C8B4BBB006FD25F /* HatListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,23 +359,27 @@
 		};
 		F7877D401C8B3E07006FD25F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A42CD04AFA5AF851679C34 /* Pods-The Fitteds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "The Fitteds/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kylenoble.prod.The-Fitteds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F7877D411C8B3E07006FD25F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF765A928B9DE95059C8D83 /* Pods-The Fitteds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "The Fitteds/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kylenoble.prod.The-Fitteds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -291,6 +402,7 @@
 				F7877D411C8B3E07006FD25F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
